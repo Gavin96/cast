@@ -1,0 +1,35 @@
+<div class="container" id="hot">
+	<div class="page-header">
+		<span class="text-right">TBD</span>
+	</div>
+   <table ng-table="project.tableParams" class="table table-condensed table-bordered table-striped">
+    <tr ng-repeat="row in $data">
+     <td data-title="'ProName'" filter="{name:'text'}" sortable="'name'">{{row.name}}</td>
+     <td data-title="'StartTime'" filter="{sTime:'text'}" sortable="'sTime'">{{row.sTime}}</td>
+     <td data-title="'EndTime'" filter="{eTime:'text'}" sortable="'eTime'">{{row.eTime}}</td>
+     <td data-title="'Edit/Del'"></td>
+   </tr>
+ </table>
+
+
+
+<!-- 
+<div ng-app="myApp">
+  <div ng-controller="demoController as demo">
+    <h2 class="page-header">Loading data - managed array</h2>
+    <div class="bs-callout bs-callout-info">
+      <h4>Overview</h4>
+      <p>When you have the <em>entire</em> dataset available in-memory you can hand this to <code>NgTableParams</code> to manage the filtering, sorting and paging of that array</p>
+    </div>
+    <table ng-table="demo.tableParams" class="table table-condensed table-bordered table-striped">
+      <tr ng-repeat="row in $data">
+        <td data-title="'Name'" filter="{name: 'text'}" sortable="'name'">{{row.name}}</td>
+        <td data-title="'Age'" filter="{age: 'number'}" sortable="'age'">{{row.age}}</td>
+        <td data-title="'Money'" filter="{money: 'number'}" sortable="'money'">{{row.money}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+ -->
+
+</div>

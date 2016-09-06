@@ -1,0 +1,29 @@
+.ht_master tr td {
+  text-align: center;
+  border-right: 0px;
+  vertical-align: middle;
+}
+
+
+.ht_master tr td .btn {
+  padding: 0 5px;
+  margin: 5px;
+}
+
+.btn-add-user {
+  margin-bottom: 5px;
+}
+
+.modal-user-popup .control-label {
+  width: 70px;
+  text-align: right;
+  margin-right: 5px;
+}
+.modal-user-popup .form-control {
+  display: inline;
+  width: 200px;
+}
+
+.modal-user-popup .form-group .form-label-span {
+  margin: 5px;
+}

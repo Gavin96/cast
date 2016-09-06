@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="page-header">
+    <h1>{{sheet.pageTitle | uppercase}}</h1>
+    <div class="text-right">Today: {{sheet.today}}</div>
+  </div>
+
+  <a href="" class="btn btn-primary" ng-click="sheet.prettyLook()">Pretty Look</a><br><br>
+
+  <div class="panel col-md-12 ">
+    <div class="">
+      <hot-table hot-id="my-handsontable" settings="sheet.settings" datarows="sheet.data">
+        <hot-column data="id"  read-only></hot-column>
+        <hot-column data="name"></hot-column>
+        <hot-column data="area"></hot-column>
+        <hot-column data="title"></hot-column>
+        <hot-column data="employeeId"  renderer = "sheet.editRenderer" read-only></hot-column>
+        <hot-column data='records.{{i}}' renderer = 'sheet.colorRenderer' ng-repeat=" i in [35, 36, 37, 38, 39, 40, 41, 42, 43, 44,45,46]" read-only></hot-column>
+        <!-- <hot-column ng-repeat="column in ctrl.columns" data="{{column.data}}" title="column.title" read-only="column.readOnly"></hot-column> -->
+      </hot-table>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="modal-edit-user" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">Edit User</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="emp-name" class="control-label">Name:</label>
+            <input type="text" class="form-control" id="emp-name">
+          </div>
+          <div class="form-group">
+            <label for="emp-area" class="control-label">Area:</label>
+            <input type="text" class="form-control" id="emp-area">
+          </div>
+          <div class="form-group">
+            <label for="emp-title" class="control-label">Title:</label>
+            <input type="text" class="form-control" id="emp-title">
+          </div>
+          <div class="form-group">
+            <label for="emp-project" class="control-label">Project:</label>
+            <input type="text" class="form-control" id="emp-project">
+          </div>
+          <div class="form-group">
+            <label for="emp-duration" class="control-label">Duration:</label>
+            <input type="date" class="form-control" id="emp-duration-from"><span class="form-label-span">to</span>
+            <input type="date" class="form-control" id="emp-duration-to">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>

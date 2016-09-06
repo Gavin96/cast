@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Created By Gavin @ 8/16/2016 -->
+	<title>mainface5.0</title>
+	<meta charset="utf-8">	
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="naive3.css"/>
+</head>
+<body>
+	<div class="panel panel-primary">		
+		<!-- Default panel contents -->
+		<div class="panel-heading">
+			这大概是一个图表
+		</div>
+		<!-- table made by div tag -->
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 longrow">
+
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 leftpart">
+						<div class="row">
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col1">S/N</div>
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col2">ID</div>
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col3">Name</div>
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col4">Area</div>
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col5">Title</div>
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col6">Edit</div>
+						</div>
+					</div>
+
+					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 rightpart">
+						<div class="row">
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 1st </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 2nd </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 3rd </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 4th </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 5th </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 6th </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 7th </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 8th </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 9th </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 10th </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 11th </div>
+							<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 12th </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row longrow">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col11">1</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col22">300123456</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col33">Tommy&nbspGong</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col44">UX</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col55">Intern</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col66">
+						<!-- 按钮触发模态框 -->
+						<button class="btn EditBut" data-toggle="modal" data-target="#myModal">Edit</button>
+						<!-- <button class="btn EditBut" type="submit">Edit</button> -->
+					</div>
+				</div>
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 midrow">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col77" style="bg-primary"> 4 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: #FFA500"> 1 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: #FFA500"> 8 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: #FFA500"> 5 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: #FFA500"> 2 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: #FFA500"> 9 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: #FFA500"> 6 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 4 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 1 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 8 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 5 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 2 </div>
+				</div>
+			</div>
+
+			<div class="row longrow">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col11">2</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col22">300123456</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col33">Tommy&nbspGong</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col44">UX</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col55">Intern</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col66">
+						<!-- 按钮触发模态框 -->
+						<button class="btn EditBut" data-toggle="modal" data-target="#myModal">Edit</button>
+						<!-- <button class="btn EditBut" type="submit">Edit</button> -->
+					</div>
+				</div>
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 midrow">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="bg-primary"> 4 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: brown"> 1 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: brown"> 8 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: brown"> 5 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: brown"> 2 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: brown"> 9 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: brown"> 6 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 4 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 1 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 8 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 5 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 2 </div>
+				</div>
+			</div>
+
+			<div class="row longrow">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col11">3</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col22">300123456</div>
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col33">Tommy&nbspGong</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col44">UX</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col55">Intern</div>
+					<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col66">
+						<!-- 按钮触发模态框 -->
+						<button class="btn EditBut" data-toggle="modal" data-target="#myModal">Edit</button>
+						<!-- <button class="btn EditBut" type="submit">Edit</button> -->
+					</div>
+				</div>
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 midrow">
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 4 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: yellow"> 1 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: yellow"> 8 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: yellow"> 5 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: yellow"> 2 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: yellow"> 9 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="background: yellow"> 6 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 4 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 1 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 8 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 5 </div>
+					<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"> 2 </div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<!-- 模态框（Modal） -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;
+					</button>
+					<h4 class="modal-title" id="myModalLabel">
+						Employee Information Updating
+					</h4>
+				</div>
+				<div class="modal-body">
+					<div style="padding: 0px 100px 85px;">
+						<form role="form">
+							<div class="form-group Popline1" >
+								<label class="col-xs-1 label1">
+									Name：
+								</label>
+								<div class="col-xs-offset-2 col-xs-8">
+									<input type="text" class="form-control" placeholder="Enter name">
+								</div>
+							</div>
+						</br>
+						<div class="form-group Popline2">
+							<label class="col-xs-1 label1">
+								Area：
+							</label>
+							<div class="col-xs-offset-2 col-xs-8">
+								<input type="text" class="form-control" placeholder="Enter area">
+							</div>
+						</div>
+					</br>
+					<div class="form-group Popline3">
+						<label class="col-xs-1 label1">
+							Title：
+						</label>
+						<div class="col-xs-offset-2 col-xs-8">
+							<input type="text" class="form-control" placeholder="Enter title">
+						</div>
+					</div>
+				</br>
+				<div class="form-group Popline4">
+					<label class="col-xs-1 label1">
+						Project：
+					</label>
+					<div class="btn-group col-xs-offset-2 col-xs-8">
+						<button type="button" class="btn btn-default">Google sheet</button>
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							<span class="caret"> </span>
+							<span class="sr-only">切换下拉菜单</span>
+						</button>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Pro1</a></li>
+							<li><a href="#">Pro2</a></li>
+							<li><a href="#">Pro3</a></li>
+						</ul>
+					</div>
+				</div>
+			</br>
+			<div class="form-group Popline5">
+				<label class="col-xs-1 label1">
+					Duration：
+				</label>
+				<span class="btn-group col-xs-offset-2 col-xs-8">
+					<button type="button" class="btn btn-default">StartTime</button>
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+						<span class="caret"> </span>
+						<span class="sr-only">切换下拉菜单</span>
+					</button>   
+					<em>
+						<span class="box1" style="padding-left:20px;padding-top:10px;margin-top:-10px;">To</span>
+					</em>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">1.1</a></li>
+						<li><a href="#">2.1</a></li>
+						<li><a href="#">3.1</a></li>
+					</ul>
+				</span>
+
+				<span class="btn-group col-xs-offset-4 col-xs-8" 
+				style="padding-top:10px;margin-left:89px;" >
+				<button type="button" class="btn btn-default">EndTime</button>
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					<span class="caret"> </span>
+					<span class="sr-only">切换下拉菜单</span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">6.1</a></li>
+					<li><a href="#">7.1</a></li>
+					<li><a href="#">8.1</a></li>
+				</ul>
+			</span>
+		</div>
+	</form>
+</div>
+<div class="modal-footer">
+	<!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> -->
+	<button type="button" class="btn btn-primary btn_submit">
+		Submit
+	</button>
+</div>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal -->
+</body>
+</html>

@@ -1,0 +1,192 @@
+.leftpart{
+	font-size: 16px;
+	color: red;
+	/*margin-right: 10px;*/
+}
+
+.rightpart{
+	font-size: 16px;
+	/*padding-left: -10px;*/
+}
+
+.longrow{
+	padding-bottom: 14px;
+	border-bottom: 2px solid #E6E6E6;
+}
+
+.col1{
+	border-right: 2px solid #E6E6E6;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 6px;
+	/*padding-right: 20px;*/
+	margin-left: -17px;
+	margin-top: -15px;
+	margin-bottom: -20px;
+	overflow: hidden;
+	/*margin-right: 10px;*/
+	/*height: 30px;*/	
+}
+.col2{
+	border-right: 2px solid #E6E6E6;
+	padding-top: 15px;
+	margin-top: -15px;
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	padding-left: 6px;
+	overflow: hidden;
+}
+.col11{
+	border-right: 2px solid #E6E6E6;
+	/*padding-top: 15px;*/
+	padding-bottom: 15px;
+	padding-left: 6px;
+	/*padding-right: 15px;*/
+	/*margin-top: 5px;*/
+	padding-top: 15px;
+	margin-bottom: -15px;
+	margin-left: -15px;
+	font-weight: bold;
+	color: #EE2C2C;
+	overflow: hidden;
+}
+.col22{
+	border-right: 2px solid #E6E6E6;
+	/*padding-top: 5px;*/
+	/*margin-top: 5px;*/
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	/*margin-top: 5px;*/
+	padding-top: 15px;
+	padding-left: 0px;
+	margin-left: 3px;
+	/*margin-right: 3px;*/
+	padding-right: 3px;
+	line-height: 20px;
+	overflow: hidden;
+	/*margin-right: -5px;*/
+	/*padding-right: 20px;*/
+}
+.col3{	
+	border-right: 2px solid #E6E6E6;
+	padding-top: 15px;
+	margin-top: -15px;
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	padding-left: 6px;
+	overflow: hidden;
+}
+.col33{	
+	border-right: 2px solid #E6E6E6;
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	/*margin-top: 5px;*/
+	padding-top: 15px;
+	padding-left: 2px;
+	margin-left: 5px;
+	line-height: 20px;
+	overflow: hidden;
+	/*margin-right: -5px;*/
+	/*display: inline-block;*/
+	/*position: absolute;*/
+	/*margin-top: -10px;*/
+}
+.col4{	
+	border-right: 2px solid #E6E6E6;
+	padding-top: 15px;
+	margin-top: -15px;
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	padding-left: 6px;
+	overflow: hidden;
+}
+.col44{	
+	border-right: 2px solid #E6E6E6;
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	/*margin-top: 5px;*/
+	padding-top: 15px;
+	padding-left: 6px;
+	margin-left: 3px;
+	line-height: 20px;
+	overflow: hidden;
+}
+.col5{	
+	border-right: 2px solid #E6E6E6;
+	padding-top: 15px;
+	margin-top: -15px;
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	padding-left: 6px;
+	overflow: hidden;
+}
+.col55{	
+	border-right: 2px solid #E6E6E6;
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	/*margin-top: 5px;*/
+	padding-top: 15px;
+	padding-left: 6px;
+	margin-left: 4px;
+	line-height: 20px;
+	overflow: hidden;
+	/*margin-right: 2px;*/
+}
+.col6{	
+	border-right: 2px solid #E6E6E6;
+	padding-top: 15px;
+	margin-top: -15px;
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	padding-left: 6px;
+	overflow: hidden;
+}
+.col66{	
+	border-right: 2px solid #E6E6E6;
+	padding-bottom: 15px;
+	margin-bottom: -15px;
+	/*margin-top: 5px;*/
+	padding-top: 15px;
+	padding-left: 10px;
+	margin-left: 3px;
+	/*padding-right: 10px;*/
+	margin-right: -10px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.EditBut{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: -4px;
+	margin-top: -5px;
+	margin-left: -8px;
+}
+
+.midrow{
+	padding-top: 15px;
+}
+
+.btn_login{
+	width: 80px;
+}
+
+.Popline1,.Popline2,.Popline3,.Popline4,.Popline5{
+	padding-top: 18px;
+	margin-bottom: 10px;
+}
+
+.btn_submit{
+	margin-left: -10px;
+}
+
+.label1{
+	font-size: 16px;
+	margin-top: 4px;
+}
+
+.box1{
+	width: 30px;
+	height: 30px;
+	line-height: 35px;
+}
